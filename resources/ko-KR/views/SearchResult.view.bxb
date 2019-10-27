@@ -1,0 +1,52 @@
+result-view {
+  match: SearchResult(this)
+  
+  message {
+    choose (Random) {
+      template ("곧 유튜브 영상이 실행됩니다."){
+        speech ("곧 유튜브 영상이 실행됩니다.")
+      }
+      template ("#{value(this.searchData)} 로 검색하신 영상을 실행합니다."){
+        speech ("#{value(this.searchData)} 로 검색하신 영상을 실행합니다.")
+      }
+      template ("잠시 후 유튜브 영상을 재생합니다."){
+        speech ("잠시 후 유튜브 영상을 재생합니다.")
+      }
+    }
+  }
+  render {
+    layout {
+      section {
+        content {
+    compound-card {
+      content {
+        image-card {
+          aspect-ratio (4:3)
+          image-url ("#{value(this.thumbnailUrl)}")
+          title-area {
+            halign (Start)
+            slot1 {
+              text {
+                value ("#{value(this.title)}")
+                style (Title_S)
+              }
+            }
+          }
+        }
+
+      }
+    }
+        }
+        }
+        }
+  }
+  app-launch {
+    payload-uri ("#{value(this.videoId)}")
+    requires {
+      app-id (com.yongguk.barona)
+      app-name (바론아이)
+      app-store-url (market://details?id=com.com.yongguk.barona)
+    }
+  }
+
+}

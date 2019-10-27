@@ -1,0 +1,26 @@
+action (NextVideo) {
+  description (__DESCRIPTION__)
+  type(Search)
+  collect {
+    input (next) {
+      type (Next)
+      min (Required) max (One)
+    }
+  }
+  output (SearchResult) {
+        throws { // 3. throws
+          error (NotFoundNextVideo) {
+              on-catch {
+                  halt {
+                      dialog {
+                          template ("다음 동영상이 없습니다. 다른 영상을 검색 해 주세요."){
+                            speech ("다음 동영상이 없습니다. 다른 영상을 검색 해 주세요.")
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+}
+

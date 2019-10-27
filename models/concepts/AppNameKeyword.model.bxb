@@ -1,0 +1,4 @@
+enum (AppNameKeyword) {
+  description (어플리케이션을 호출할 때 사용하는 모델)
+  symbol (앱)
+}

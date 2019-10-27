@@ -1,0 +1,5 @@
+enum (AppType) {
+  description (__DESCRIPTION__)
+  symbol (실행)
+  symbol (종료)
+}

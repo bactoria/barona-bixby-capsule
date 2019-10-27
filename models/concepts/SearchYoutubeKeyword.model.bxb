@@ -1,0 +1,4 @@
+enum (SearchYoutubeKeyword) {
+  description ()
+  symbol (실행)
+}

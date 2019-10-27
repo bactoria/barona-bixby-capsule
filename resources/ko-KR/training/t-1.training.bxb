@@ -1,0 +1,5 @@
+train (t-19b80dz9gwwlb3pdyx1hqrcdl) {
+  utterance ("[g:SearchYoutube] (아기상어)[v:SearchData] (실행)[v:SearchYoutubeKeyword:실행]")
+  plan (Y2BhkC6wTM5JLC7WS0osys9L1AtOTSxKzghKLS7NKWGQwSoZmV9aUpqUyiCJVdYlsSSRQRmfRu/UyvL8ohQGZgZGBiYgyQCkQRAC4KIA)
+  last-modified (1572196119458)
+}

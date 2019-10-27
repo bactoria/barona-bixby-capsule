@@ -1,0 +1,17 @@
+template-macro-def (searchResultMacro) {
+  content {
+        choose (Random) {
+      template ("잠시 후 유튜브를 재생 합니다."){
+        speech ("잠시 후 유튜브를 재생 합니다.")
+      }
+      template ("곧 유튜브 영상이 실행 됩니다."){
+        speech ("곧 유튜브 영상이 실행 됩니다.")
+      }
+      template ("검색하신 영상을 실행 합니다."){
+        speech ("검색하신 영상을 실행 합니다.")
+      }
+      
+    }      
+
+  }
+}

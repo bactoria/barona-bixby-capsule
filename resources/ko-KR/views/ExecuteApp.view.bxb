@@ -1,0 +1,27 @@
+result-view {
+  match: AppResult(this)
+  
+  message {
+    choose (Random) {
+      template ("잠시 후 바론아이 앱을 #{value(this.executionName)} 합니다."){
+        speech ("잠시 후 바론아이 앱을 #{value(this.executionName)} 합니다.")
+      }
+      template ("곧 바론아이 앱을 #{value(this.executionName)} 합니다."){
+        speech ("곧 바론아이 앱을 #{value(this.executionName)} 합니다.")
+      }
+      template ("바론아이 앱을 #{value(this.executionName)} 할게요."){
+        speech ("바론아이 앱을 #{value(this.executionName)} 할게요.")
+      }
+    }
+  }
+
+  app-launch {
+    payload-uri ("#{value(this.executionUri)}")
+    requires {
+      app-id (com.yongguk.barona)
+      app-name (바론아이)
+      app-store-url (market://details?id=com.com.yongguk.barona)
+    }
+  }
+
+}

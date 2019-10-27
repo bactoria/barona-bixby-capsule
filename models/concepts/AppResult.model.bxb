@@ -1,0 +1,11 @@
+structure (AppResult) {
+  description (__DESCRIPTION__)
+  property (executionName) {
+    type (ExecutionName)
+    min (Required) max (One)
+  }
+    property (executionUri) {
+    type (ExecutionUri)
+    min (Required) max (One)
+  }
+}

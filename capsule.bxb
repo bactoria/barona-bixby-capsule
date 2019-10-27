@@ -1,0 +1,21 @@
+capsule {
+  id (p9class.barona)
+  version (0.1.4)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+  
+  runtime-flags{
+    no-filtering-with-validation
+    modern-default-view-behavior
+    use-input-views-for-selection-list-detail
+    support-halt-effect-in-computed-inputs
+    modern-prompt-rejection
+    concepts-inherit-super-type-features
+  }
+  
+  store-sections {
+    section (MoviesAndTV)
+  }
+}

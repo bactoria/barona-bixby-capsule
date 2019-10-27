@@ -1,0 +1,23 @@
+structure (SearchResult) {
+  description (__DESCRIPTION__)
+
+  property (thumbnailUrl) {
+    type (ThumbnailUrl)
+    min (Required) max (One)
+  }
+
+  property (videoId) {
+    type (VideoId)
+    min (Required) max (One)
+  }
+
+  property (title) {
+    type (Title)
+    min (Required) max (One)
+  }
+
+  property (searchData) {
+    type (SearchData)
+    min (Required) max (One)
+  }
+}

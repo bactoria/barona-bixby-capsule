@@ -1,0 +1,16 @@
+action (Execution) {
+  description (__DESCRIPTION__)
+  type (Search)
+  collect {
+    input (appNameKeyword) {
+      type (AppNameKeyword)
+      min (Optional) max (One)
+    }
+    input (appType) {
+      type (AppType)
+      min (Required) max (One)
+    }
+  }
+  output (AppResult)
+}
+
