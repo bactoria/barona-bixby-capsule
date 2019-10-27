@@ -1,0 +1,23 @@
+result-view {
+  match: GuideResult(this)
+  
+  message {
+    choose (Random) {
+      template ("바로나의 사용법을 알려드릴게요."){
+        speech ("바로나의 사용법을 알려드릴게요.")
+      }
+      template ("바로나 캡슐의 사용법은 다음과 같습니다."){
+        speech ("바로나 캡슐의 사용법은 다음과 같습니다.")
+      }
+    }
+  }
+
+  render {
+    layout {
+      layout-macro (AppStartGuide)
+      layout-macro (YoutubePlayGuide)
+      layout-macro (AppEndGuide)
+    }
+  }
+
+}

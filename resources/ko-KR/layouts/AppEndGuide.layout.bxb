@@ -1,0 +1,106 @@
+ 
+layout-macro-def(AppEndGuide) {
+
+  content {
+    section {
+      content {
+        compound-card {
+          content {
+        paragraph {
+          value ("끝")
+          style (Title_S)
+        }
+       
+                divider
+                     hbox {
+              content {
+                vbox {
+                  halign (Start)
+                  content {
+                    text{
+                      value("발화 예시")
+                      style(Detail_M_Soft)
+                    }
+                    text{
+                      value("바로나에서 종료")
+                      style(Detail_M)
+                    }
+                    text{
+                      value("바로나에서 끝")
+                      style(Detail_M)
+                    }                    
+                  }
+                }
+                }
+                }
+                divider
+                                hbox {
+                  content{
+                vbox {
+                  halign (Start)
+                  content {
+                    text {
+                      value("설명" )
+                      style(Detail_M_Soft)
+                    }
+                    single-line {
+                                  text {
+                                    value("-")
+                                    style(Detail_M)
+                                  }
+                                  spacer
+                                  spacer
+                                  
+                    text {
+                      value("도중에 바로나를 종료해야 할 경우 말씀해주세요." )
+                      style(Detail_M)
+                    }
+                    }
+                    single-line {
+                      text {
+                        value("-")
+                        style(Detail_M)
+                      }
+                      spacer
+                      spacer
+                    
+                    text {
+                      value("화면이 잠금화면으로 전환됩니다." )
+                      style(Detail_M)
+                    }}
+                                        single-line {
+                                  text {
+                                    value("-")
+                                    style(Detail_M)
+                                  }
+                                  spacer
+                                  spacer
+                                  
+                    text {
+                      value("비밀번호를 잊어버린다면 '바른 아이' 앱에 들어가세요.")
+                      style(Detail_M)
+                    } }
+                                        single-line {
+                                  text {
+                                    value("-")
+                                    style(Detail_M)
+                                  }
+                                  spacer
+                                  spacer
+                                  
+                    text {
+                      value("설정 화면에 비밀번호를 찾는 기능이 있습니다.")
+                      style(Detail_M)
+                    }   }
+                  }
+                }
+              }
+            }
+                }
+              
+                }
+                  }
+                }
+
+      }
+    }

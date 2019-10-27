@@ -1,0 +1,148 @@
+
+layout-macro-def(YoutubePlayGuide) {
+
+  content {
+    section {
+      content {
+        compound-card {
+          content {
+        paragraph {
+          value ("유튜브 영상 재생")
+          style (Title_S)
+        }
+
+
+       
+                divider
+                     hbox {
+              content {
+                vbox {
+                  halign (Start)
+                  content {
+                    text{
+                      value("발화 예시")
+                      style(Detail_M_Soft)
+                    }
+                    text{
+                      value("바로나에서 핑크퐁 틀어줘")
+                      style(Detail_M)
+                    }
+                    text{
+                      value("바로나에서 뽀로로 보여줘")
+                      style(Detail_M)
+                    }                    
+                    text{
+                      value("바로다음")
+                      style(Detail_M)
+                    }                     
+                    text{
+                      value("유튜브에서 핑크퐁 틀어줘")
+                      style(Detail_M)
+                    }                                        
+                                     }
+                }
+                }
+                }
+                divider
+                                hbox {
+                  content{
+                vbox {
+                  halign (Start)
+                  content {
+                    text {
+                      value("설명" )
+                      style(Detail_M_Soft)
+                    }
+                    single-line {
+                                  text {
+                                    value("-")
+                                    style(Detail_M)
+                                  }
+                                  spacer
+                                  spacer
+                                  
+                    text {
+                      value("바로나는 유해 동영상을 차단합니다." )
+                      style(Detail_M)
+                    }
+                    }
+                    single-line {
+                                  text {
+                                    value("-")
+                                    style(Detail_M)
+                                  }
+                                  spacer
+                                  spacer
+                                  
+                    text {
+                      value("원하시는 동영상이 없다면 유튜브에서 찾아보세요." )
+                      style(Detail_M)
+                    }
+                    }
+
+
+                    single-line {
+                                  text {
+                                    value("-")
+                                    style(Detail_M)
+                                  }
+                                  spacer
+                                  spacer
+                                  
+                    text {
+                      value("동영상은 저희가 골라서 보여드릴게요.")
+                      style(Detail_M)
+                    }   }
+                                        single-line {
+                                  text {
+                                    value("-")
+                                    style(Detail_M)
+                                  }
+                                  spacer
+                                  spacer
+                                  spacer
+                                  spacer
+                                  spacer
+                                  
+                    text {
+                      value("보여줄 동영상의 검색어만 포함해서 말해주세요.")
+                      style(Detail_M)
+                    }   }
+                                                            single-line {
+                      text {
+                        value("-")
+                        style(Detail_M)
+                      }
+                      spacer
+                      spacer
+                    
+                    text {
+                      value("바로나는 '바로다음'이라는 명령어를 제공합니다." )
+                      style(Detail_M)
+                    }}
+                                                            single-line {
+                                  text {
+                                    value("-")
+                                    style(Detail_M)
+                                  }
+                                  spacer
+                                  spacer
+                                  
+                    text {
+                      value("아이에게 스스로 골라볼 수 있도록 해주세요.") 
+                      style(Detail_M)
+                    } }
+                    
+
+                  }
+                }
+              }
+            }
+                }
+              
+                }
+                  }
+                }
+
+      }
+    }
