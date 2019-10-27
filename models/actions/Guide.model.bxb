@@ -1,0 +1,15 @@
+action (Guide) {
+  description (__DESCRIPTION__)
+  type(Search)
+  collect {
+    input (guideKeyword) {
+      type (GuideKeyword)
+      min (Required) max (One)
+    }
+    input (searchKeyword) {
+      type (SearchKeyword)
+      min (Optional) max (One)
+    }
+      }
+  output (GuideResult)
+}

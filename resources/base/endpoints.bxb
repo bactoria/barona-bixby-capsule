@@ -15,5 +15,10 @@ endpoints {
        accepted-inputs (next)
        local-endpoint (nextVideo.js)
      }
+
+     action-endpoint (Guide) {
+       accepted-inputs (guideKeyword, searchKeyword)
+       local-endpoint (guide.js)
+     }
   }
 }

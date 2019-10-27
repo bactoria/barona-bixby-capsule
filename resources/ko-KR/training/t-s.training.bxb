@@ -1,5 +1,5 @@
 train (t-s7st6uy7bk9ftsuhmuzs5bskh) {
-  utterance ("[g:SearchYoutube] (가 가)[v:SearchData] 보여줘")
-  plan (Y2BmUEhKLMrP0wOTiZH5pSWlSal6wamJRckZQanFpTklDIq4VUB5DHK4lbgkliQyMDEwAjEDkGRkAAEoHwA=)
-  last-modified (1571818558072)
+  utterance ("[g:SearchYoutube] (가 가)[v:SearchData] (보여줘)[v:SearchYoutubeKeyword:실행]")
+  plan (Y2BhkC6wTM5JLC7WS0osys9L1AtOTSxKzghKLS7NKWGQwSoZmV9aUpqUyiCJVdYlsSSRQRmfRu/UyvL8ohQGZgZGBiYgyQCkQRAC4KIA)
+  last-modified (1572198276315)
 }
