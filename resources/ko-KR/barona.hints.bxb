@@ -1,9 +1,9 @@
 hints {
   uncategorized {
-    utterance (바로나에서 사용법 알려줘)
-    utterance (바로나에서 시작)
-    utterance (바로나에서 핑크퐁 틀어줘)
+    utterance (사용법 알려줘)
+    utterance (시작)
+    utterance (핑크퐁 틀어줘)
     utterance (바로다음)
-    utterance (바로나에서 종료)
+    utterance (종료)
   }
 }

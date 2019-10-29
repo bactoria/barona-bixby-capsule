@@ -1,16 +1,16 @@
 result-view {
-  match: SearchResult(this)
+  match: NextResult(this)
   
   message {
     choose (Random) {
-      template ("곧 유튜브 영상이 실행됩니다."){
-        speech ("곧 유튜브 영상이 실행됩니다.")
+      template ("다음 영상이 실행됩니다.") {
+        speech ("다음 영상이 실행됩니다.")
       }
-      template ("#{value(this.searchData)} 로 검색하신 영상을 실행합니다."){
-        speech ("#{value(this.searchData)} 로 검색하신 영상을 실행합니다.")
+      template ("다음 영상을 재생합니다.") {
+        speech ("다음 영상을 재생합니다.")
       }
-      template ("잠시 후 유튜브 영상을 재생합니다."){
-        speech ("잠시 후 유튜브 영상을 재생합니다.")
+      template ("다음 영상이 곧 재생됩니다.") {
+        speech ("다음 영상이 곧 재생됩니다.")
       }
     }
   }

@@ -15,10 +15,11 @@ module.exports.function = function nextVideo ($vivContext, next) {
   const url = secret.get('api.url');
 
   try {    
-   const response = http.getUrl(url + "/nextVideo", options);
+   const nextResult = http.getUrl(url + "/nextVideo", options);
   } catch(e) {
-    console.log(response);
+    console.log(e);
     throw fail.checkedError('There is no process', 'NotFoundNextVideo', null);
   }
-  return response;
+  console.log(nextResult)
+  return nextResult;
 }

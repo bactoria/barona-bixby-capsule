@@ -17,9 +17,14 @@ action (SearchYoutube) {
               on-catch {
                   halt {
                       dialog {
+                        choose (Random) {
                           template ("재생 가능한 동영상이 없습니다. 다른 영상을 검색해 주세요."){
                             speech ("재생 가능한 동영상이 없습니다. 다른 영상을 검색해 주세요.")
                           }
+                          template ("재생 가능한 동영상이 없네요. 다른 키워드로 검색해주시겠어요?"){  
+                            speech ("재생 가능한 동영상이 없네요. 다른 키워드로 검색해주시겠어요?")
+                          }                          
+                        }
                       }
                   }
               }
