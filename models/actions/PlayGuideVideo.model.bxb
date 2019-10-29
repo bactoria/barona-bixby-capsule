@@ -1,4 +1,0 @@
-action (PlayGuideVideo) {
-  description (__DESCRIPTION__)
-  output (PlayGuideVideoResult)
-}

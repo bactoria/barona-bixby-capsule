@@ -79,36 +79,6 @@ layout-macro-def(YoutubePlayGuide) {
                     }
                     }
 
-
-                    single-line {
-                                  text {
-                                    value("-")
-                                    style(Detail_M)
-                                  }
-                                  spacer
-                                  spacer
-                                  
-                    text {
-                      value("동영상은 저희가 골라서 보여드릴게요.")
-                      style(Detail_M)
-                    }   }
-                                        single-line {
-                                  text {
-                                    value("-")
-                                    style(Detail_M)
-                                  }
-                                  spacer
-                                  spacer
-                                  spacer
-                                  spacer
-                                  spacer
-                                  
-                    text {
-                      value("보여줄 동영상의 검색어만 포함해서 말해주세요.")
-                      style(Detail_M)
-                    }   
-                    }
-                    
                     single-line {
                       text {
                         value("-")
@@ -121,19 +91,7 @@ layout-macro-def(YoutubePlayGuide) {
                       value("바로나는 '뿌뿌'라는 명령어를 제공합니다." )
                       style(Detail_M)
                     }}
-                    
-                    single-line {
-                      text {
-                        value("-")
-                        style(Detail_M)
-                      }
-                      spacer
-                      spacer           
-                      text {
-                        value("아이에게 스스로 골라볼 수 있도록 해주세요.") 
-                        style(Detail_M)
-                      } 
-                    }
+      
 
                     single-line {
                       text {
@@ -156,7 +114,7 @@ layout-macro-def(YoutubePlayGuide) {
                       spacer
                       spacer           
                       text {
-                        value("아이에게 안전한 동영상만 골라서 보여드려요.")
+                        value("아이 스스로 원하는 동영상을 볼 수 있도록 '뿌뿌'를 알려주세요.")
                         style(Detail_M)
                       } 
                     }
@@ -169,7 +127,7 @@ layout-macro-def(YoutubePlayGuide) {
                       spacer
                       spacer           
                       text {
-                        value("안심하시고 보여줄 검색어를 말해주세요.")
+                        value("검색어 발음에 유의하세요.")
                         style(Detail_M)
                       } 
                     }
