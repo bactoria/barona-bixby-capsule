@@ -20,5 +20,9 @@ endpoints {
        accepted-inputs (guideKeyword, searchKeyword)
        local-endpoint (guide.js)
      }
+     
+     action-endpoint (PlayGuideVideo) {
+       local-endpoint (playGuideVideo.js)
+     }
   }
 }
