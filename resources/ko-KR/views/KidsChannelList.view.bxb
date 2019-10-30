@@ -1,0 +1,22 @@
+result-view {
+  match: KidsChannelListResult(this)
+  
+  message {
+    choose (Random) {
+      template ("유튜브 채널 목록입니다.") {
+        speech ("유튜브 채널 목록입니다.")
+      }
+    }
+  }
+  render {
+    list-of (this) {
+      where-each (channels) {
+        layout-macro (Channels-macro) {
+          param (channels) {
+            expression(channels)
+          }
+        }
+      }
+    }
+  }
+}

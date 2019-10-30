@@ -9,17 +9,19 @@ module.exports.function = function playGuideVideo () {
     cacheTime: 0
   };
 
-//  const url = secret.get('api.url');
-  const url = 'http://localhost:8080'
+  const url = secret.get('api.url');
+
   try {    
     const response = http.getUrl(url + "/property/guideVideoUrl", options);
   } catch(e) {
-    console.log(response);
+    console.log(e);
     throw fail.checkedError('There is no process', 'NotFoundGuideVideo', null);
   }
 
-  console.log(response); 
-  console.log("vnd.youtube:" + response); 
+  console.log(response);
+  const videoId = response.videoId;
 
-  return response;
+  const payloadUri = "vnd.youtube:" + videoId; 
+
+  return payloadUri;
 }

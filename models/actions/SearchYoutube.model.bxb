@@ -11,6 +11,9 @@ action (SearchYoutube) {
       min (Optional) max (One)
     }
   }
+  
+
+  
   output (SearchResult) {
       throws { // 3. throws
           error (NotFoundVideos) {
@@ -18,11 +21,11 @@ action (SearchYoutube) {
                   halt {
                       dialog {
                         choose (Random) {
-                          template ("재생 가능한 동영상이 없습니다. 다른 영상을 검색해 주세요."){
-                            speech ("재생 가능한 동영상이 없습니다. 다른 영상을 검색해 주세요.")
+                          template ("선별된 키즈 채널에서 재생 가능한 동영상이 없습니다. 보기를 원하신다면 유튜브에서 실행해주세요."){
+                            speech ("선별된 키즈 채널에서 재생 가능한 동영상이 없습니다. 보기를 원하신다면 유튜브에서 실행해주세요.")
                           }
-                          template ("재생 가능한 동영상이 없네요. 다른 키워드로 검색해주시겠어요?"){  
-                            speech ("재생 가능한 동영상이 없네요. 다른 키워드로 검색해주시겠어요?")
+                          template ("재생 가능한 동영상이 키즈 채널에 없네요. 보기를 원하신다면 유튜브에서 실행 해주세요."){  
+                            speech ("재생 가능한 동영상이 키즈 채널에 없네요. 보기를 원하신다면 유튜브에서 실행 해주세요.")
                           }                          
                         }
                       }

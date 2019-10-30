@@ -10,10 +10,5 @@ capsule-info {
     keyword (아이)
   }
   dispatch-name (바로나)
-  dispatch-aliases {
-    alias (바론아)
-    alias (바르나)
-    alias (버론아)
-    alias (버로나)
-  }
+  privacy-policy-url(http://15.164.140.192:8087/privacy-policy)
 }

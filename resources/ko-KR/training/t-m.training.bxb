@@ -1,0 +1,5 @@
+train (t-m6fjg76pw5eni1oshxukcnpvw) {
+  utterance ("[g:SearchYoutube] (시크릿 쥬쥬)[v:SearchData] (보여줘라)[v:SearchYoutubeKeyword:실행]")
+  plan (Y2BhkC6wTM5JLC7WS0osys9L1AtOTSxKzghKLS7NKWGQwSoZmV9aUpqUyiCJVdYlsSSRQRmfRu/UyvL8ohQGZgZGBiYgyQCkQRAC4KIA)
+  last-modified (1572417190135)
+}

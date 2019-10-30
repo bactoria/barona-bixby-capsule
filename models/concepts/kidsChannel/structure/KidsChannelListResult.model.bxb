@@ -1,0 +1,25 @@
+structure (KidsChannelListResult) {
+  description (__DESCRIPTION__)
+  
+  
+  property (channelId) {
+    type (KidsChannelId)
+    min (Required) max (One)
+  }
+
+  property (title) {
+    type (KidsChannelTitle)
+    min (Required) max (One)
+  }
+
+  property (imageUrl) {
+    type (KidsChannelImageUrl)
+    min (Required) max (One)
+  }
+
+  property (subscriber) {
+    type (KidsChannelSubscriber)
+    min (Required) max (One)
+  }
+
+}

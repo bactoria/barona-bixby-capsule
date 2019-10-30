@@ -1,10 +1,27 @@
 hints {
   uncategorized {
-    utterance (사용법 알려줘)
-    utterance (볼 수 있는 유튜브 채널 알려줘)
-    utterance (시작)
-    utterance (핑크퐁 틀어줘)
-    utterance (뿌뿌)
-    utterance (종료)
+    hint ("바로나에서 사용법 알려줘") {
+      preferred-hint ("사용법 알려줘")
+    }
+    hint ("바로나에서 볼 수 있는 유튜브 채널 알려줘") {
+      preferred-hint ("유튜브 채널 알려줘")
+    }
+    hint ("바로나에서 종료") {
+      preferred-hint ("종료")
+    }
+    hint ("바로나에서 핑크퐁 틀어줘") {
+      preferred-hint ("핑크퐁 틀어줘")
+    }
+    hint ("바로나에서 아기상어 틀어줘") {
+      preferred-hint ("아기상어 틀어줘")
+    }
+    hint ("바로나에서 뿌뿌") {
+      preferred-hint ("뿌뿌")
+    }
+    hint ("바로나에서 종료") {
+      preferred-hint ("종료")
+    }
   }
 }
+
+  

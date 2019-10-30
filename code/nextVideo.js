@@ -12,8 +12,7 @@ module.exports.function = function nextVideo ($vivContext, next) {
     cacheTime: 0
   };
 
-//  const url = secret.get('api.url');
-  const url = 'http://localhost:8080'
+  const url = secret.get('api.url');
 
   try {    
    const nextResult = http.getUrl(url + "/nextVideo", options);

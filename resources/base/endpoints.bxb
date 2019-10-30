@@ -7,7 +7,7 @@ endpoints {
      }
 
      action-endpoint (Execution) {
-       accepted-inputs (appType)
+       accepted-inputs (appNameKeyword, appType)
        local-endpoint (execution.js)
      }
 
@@ -24,5 +24,10 @@ endpoints {
      action-endpoint (PlayGuideVideo) {
        local-endpoint (playGuideVideo.js)
      }
+
+      action-endpoint (KidsChannelList) {
+        local-endpoint (kidsChannelList.js)
+      }
+
   }
 }

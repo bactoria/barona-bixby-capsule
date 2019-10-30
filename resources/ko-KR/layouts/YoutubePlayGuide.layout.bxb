@@ -9,17 +9,14 @@ layout-macro-def(YoutubePlayGuide) {
           value ("유튜브 영상 재생")
           style (Title_S)
         }
-
-
-       
-                divider
-                     hbox {
-              content {
-                vbox {
-                  halign (Start)
-                  content {
-                    text{
-                      value("발화 예시")
+        divider
+          hbox {
+            content {
+             vbox {
+              halign (Start)
+                content {
+                  text{
+                    value("발화 예시")
                       style(Detail_M_Soft)
                     }
                     text{

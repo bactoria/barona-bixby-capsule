@@ -20,7 +20,7 @@ result-view {
     requires {
       app-id (com.yongguk.barona)
       app-name (바론아이)
-      app-store-url (market://details?id=com.com.yongguk.barona)
+      app-store-url (http://play.google.com/store/apps/details?id=com.yongguk.barona)
     }
   }
 

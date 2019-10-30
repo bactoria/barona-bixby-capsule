@@ -1,0 +1,4 @@
+enum (KidsChannelKeyword) {
+  description (__DESCRIPTION__)
+  symbol (채널)
+}

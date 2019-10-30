@@ -1,0 +1,4 @@
+enum (KidsChannelPrefix) {
+  description (__DESCRIPTION__)
+  symbol (볼수있는)
+}
