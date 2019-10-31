@@ -28,7 +28,7 @@ layout-macro-def(YoutubePlayGuide) {
                       style(Detail_M)
                     }                    
                     text{
-                      value("뿌뿌")
+                      value("다음")
                       style(Detail_M)
                     }                     
                     text{
@@ -85,7 +85,7 @@ layout-macro-def(YoutubePlayGuide) {
                       spacer
                     
                     text {
-                      value("바로나는 '뿌뿌'라는 명령어를 제공합니다." )
+                      value("바로나는 '다음'라는 명령어를 제공합니다." )
                       style(Detail_M)
                     }}
       
@@ -98,7 +98,7 @@ layout-macro-def(YoutubePlayGuide) {
                       spacer
                       spacer           
                       text {
-                        value("'뿌뿌'는 다음 영상을 틀어줄 때 사용해요.") 
+                        value("'다음'은 다음 영상을 틀어줄 때 사용해요.") 
                         style(Detail_M)
                       } 
                     }
@@ -111,7 +111,7 @@ layout-macro-def(YoutubePlayGuide) {
                       spacer
                       spacer           
                       text {
-                        value("아이 스스로 원하는 동영상을 볼 수 있도록 '뿌뿌'를 알려주세요.")
+                        value("아이 스스로 원하는 동영상을 볼 수 있도록 '다음'를 알려주세요.")
                         style(Detail_M)
                       } 
                     }

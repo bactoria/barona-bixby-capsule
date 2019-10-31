@@ -1,0 +1,47 @@
+layout-macro-def(GuideButton) {
+  content {
+    section {
+      content {
+
+        compound-card {          
+          content {
+            single-line {
+              text{
+                value ("사용법 동영상으로 보기")
+                style (Detail_M)
+                color (Green)
+              }
+            }
+          }
+          on-click {
+            intent {
+              goal: PlayGuideVideo
+            }
+          }
+        }
+
+
+
+
+        compound-card {          
+          content {
+            single-line {
+              text{
+                value ("시청 가능한 유튜브 채널 보기")
+                style (Detail_M)
+                color (Green)
+              }
+            }
+          }
+          on-click {
+            intent {
+              goal: KidsChannelList
+            }
+          }
+        }
+
+
+      }
+    }
+  }
+}

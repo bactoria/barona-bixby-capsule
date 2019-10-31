@@ -34,7 +34,8 @@ layout-macro-def(AppEndGuide) {
                 }
                 }
                 divider
-                                hbox {
+                
+                hbox {
                   content{
                 vbox {
                   halign (Start)

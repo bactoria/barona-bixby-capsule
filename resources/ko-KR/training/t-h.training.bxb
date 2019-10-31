@@ -1,0 +1,5 @@
+train (t-hpkzrh5uzwgt1wqfuo055rpfl) {
+  utterance ("[g:Guide] (가이드)[v:GuideKeyword:가이드] (보여줘라)[v:SearchKeyword:검색]")
+  plan (Y2BhkCqwTM5JLC7WS0osys9L1HMvzUxJDUotLs0pYRDBJscgjU3UO7WyPL8ohUEGTTI4NbEoOQMmy8zAyMAEJBmANAhCAFwUAA==)
+  last-modified (1572488517811)
+}

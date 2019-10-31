@@ -64,10 +64,20 @@ layout-macro-def(AppStartGuide) {
                       spacer
                     
                     text {
-                      value("앱 설치 후 한번은 실행하여 권한을 허용해주세요." )
+                      value("앱 설치 후 한번은 실행하여 " )
                       style(Detail_M)
-                    }}
-                                        single-line {
+                    }
+                    text {
+                      value("권한을 허용" )
+                      style(Detail_M)
+                      color (Red)
+                    }
+                    text {
+                      value("해주세요." )
+                      style(Detail_M)
+                    }
+                    }
+                    single-line {
                                   text {
                                     value("-")
                                     style(Detail_M)

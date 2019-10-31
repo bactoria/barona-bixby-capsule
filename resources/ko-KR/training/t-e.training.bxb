@@ -1,3 +1,8 @@
+train (t-ei8mgweui1saxqlnkfkuzold5) {
+  utterance ("[g:Guide] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkCqwTM5JLC7WS0osys9L1HMvzUxJDUotLs0pYRDBJscgjU3UO7WyPL8ohUEGTTI4NbEoOQMmy8zAyMAEJBmANAhCABOQBRQDAA==)
+  last-modified (1572501698027)
+}
 train (t-em617vmwnyjcjm5prj3h4zmah) {
   utterance ("[g:NextVideo] (다음)[v:Next:다음]")
   plan (Y2BmkCywTM5JLC7WS0osys9L1PNLrSgJSi0uzSlhkMAiFZaZkprPIIxFhoGJgRGIGYAkIwMIQPkA)

@@ -14,7 +14,7 @@ result-view {
 
   render {
     layout {
-      layout-macro (VideoGuide)
+      layout-macro (GuideButton)
       layout-macro (AppStartGuide)
       layout-macro (YoutubePlayGuide)
       layout-macro (AppEndGuide)

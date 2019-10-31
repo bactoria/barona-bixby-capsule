@@ -1,3 +1,8 @@
+train (t-tblfeyc967gnxjpcywp1d3or7) {
+  utterance ("[g:Execution] (켜주라)[v:AppType:실행]")
+  plan (Y2BmkCiwTM5JLC7WS0osys9L1HMsKAhKLS7NKcGQca1ITS4tyczPYxDD1BNSWZDKwMTACMQMQJKRAQSgfAA=)
+  last-modified (1572488220202)
+}
 train (t-ty4h2teb7wv8xvbb7gbm1gszl) {
   utterance ("[g:Guide] (사용법)[v:GuideKeyword:가이드] (알려줘)[v:SearchKeyword:검색]")
   plan (Y2BhkCqwTM5JLC7WS0osys9L1HMvzUxJDUotLs0pYRDBJscgjU3UO7WyPL8ohUEGTTI4NbEoOQMmy8zAyMAEJBmANAhCAFwUAA==)

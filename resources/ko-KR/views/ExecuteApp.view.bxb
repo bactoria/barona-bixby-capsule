@@ -1,4 +1,5 @@
 result-view {
+  
   match: AppResult(this)
   
   message {

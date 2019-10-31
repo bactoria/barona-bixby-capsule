@@ -3,3 +3,8 @@ train (t-887ws232bjbbe9161l2y4judd) {
   plan (Y2BmkEtKLMrPS9SDUJH5pSWlSal6jgUFQanFpTklOORdK1KTS0sy8/MYZHDpD6ksSGVgYmAEYgYgycgAAlA+AA==)
   last-modified (1572152793475)
 }
+train (t-8vfx2gvomtiliy3wd00rhuas8) {
+  utterance ("[g:Guide] (이용 방법)[v:GuideKeyword:가이드] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkCqwTM5JLC7WS0osys9L1HMvzUxJDUotLs0pYRDBJscgjU3UO7WyPL8ohUEGTTI4NbEoOQMmy8zAyMAEJBmANAhCAFwUAA==)
+  last-modified (1572498453733)
+}

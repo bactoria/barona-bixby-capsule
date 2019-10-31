@@ -1,3 +1,8 @@
+train (t-q5fhwh6v37luptkikb26flh5k) {
+  utterance ("[g:Guide] (이용방법)[v:GuideKeyword:가이드] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BhkCqwTM5JLC7WS0osys9L1HMvzUxJDUotLs0pYRDBJscgjU3UO7WyPL8ohUEGTTI4NbEoOQMmy8zAyMAEJBmANAhCAFwUAA==)
+  last-modified (1572488306374)
+}
 train (t-qordfd621s1mvskvnncpo07vq) {
   utterance ("[g:Execution] (바론아이)[v:AppNameKeyword:앱] (실행)[v:AppType:실행]")
   plan (Y2BhkCiwTM5JLC7WS0osys9L1HMsKAhKLS7NKcGQca1ITS4tyczPY5DF1OOXmJvqnVpZnl+UwiCGKR1SWZDKwMzAyMAEJBmANAhCAFwUAA==)

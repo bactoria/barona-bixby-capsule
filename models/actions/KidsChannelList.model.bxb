@@ -1,21 +1,4 @@
 action (KidsChannelList) {
   description (__DESCRIPTION__)
-  collect {
-    input (kidsChannelPrefix) {
-      type (KidsChannelPrefix)
-      min (Optional) max (One)
-    }
-
-    input (kidsChannelKeyword) {
-      type (KidsChannelKeyword)
-      min (Required) max (One)
-    }
-
-    input (searchKeyword) {
-      type (SearchKeyword)
-      min (Optional) max (One)
-    }
-    
-  }
   output (KidsChannelListResult)
 }

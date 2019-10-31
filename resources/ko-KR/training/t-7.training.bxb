@@ -1,5 +1,0 @@
-train (t-7qa9v57x4ld10hsknab8xf8qt) {
-  utterance ("[g:KidsChannelList] (볼 수 있는)[v:KidsChannelPrefix:볼수있는] (채널)[v:KidsChannelKeyword:채널] (알려줘)[v:SearchKeyword:검색]")
-  plan (Y2BlUCmwTM5JLC7WS0osys9L1PPOTCl2zkjMy0vN8cksLglKLS7NKWGQw6+KQRG3vHdqZXl+UQqDAm4lAUWpaZkVDDJoKoJTE4uSM2D6WRgYGZgYmIE0A5AFgTCAJAcA)
-  last-modified (1572401870118)
-}
