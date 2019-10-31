@@ -1,5 +1,0 @@
-train (t-abq7xicoyshxc1c7owe9lrnts) {
-  utterance ("[g:SearchYoutube] (가나다)[v:SearchData] (보여줘)[v:SearchYoutubeKeyword:실행]")
-  plan (Y2BhkC6wTM5JLC7WS0osys9L1AtOTSxKzghKLS7NKWGQwSoZmV9aUpqUyiCJVdYlsSSRQRmfRu/UyvL8ohQGZgZGBiYgyQCkQRAC4KIA)
-  last-modified (1572195589073)
-}

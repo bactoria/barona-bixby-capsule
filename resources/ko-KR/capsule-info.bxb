@@ -8,4 +8,7 @@ capsule-info {
     keyword (아이)
   }
   dispatch-name (바로나)
+  dispatch-aliases {
+  alias (바르나)
+ }
 }

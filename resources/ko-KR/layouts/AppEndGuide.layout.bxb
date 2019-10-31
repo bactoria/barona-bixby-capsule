@@ -78,7 +78,7 @@ layout-macro-def(AppEndGuide) {
                                   spacer
                                   
                     text {
-                      value("비밀번호를 잊어버린다면 '바른 아이' 앱에 들어가세요.")
+                      value("비밀번호 분실 시 '바른 아이' 앱에 들어가세요.")
                       style(Detail_M)
                     } }
                                         single-line {

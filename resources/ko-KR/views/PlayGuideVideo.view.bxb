@@ -3,7 +3,7 @@ result-view {
   
   message {
     choose (Random) {
-      template ("곧 가이드 영상이 실행됩니다. #{value(this)}"){
+      template ("곧 가이드 영상이 실행됩니다."){
         speech ("곧 가이드 영상이 실행됩니다.")
       }
       template ("잠시 후 가이드 영상을 재생합니다."){

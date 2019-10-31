@@ -1,6 +1,6 @@
 capsule {
   id (p9class.barona)
-  version (0.3.10)
+  version (1.1.0)
   format (3)
   targets {
     target (bixby-mobile-ko-KR)
