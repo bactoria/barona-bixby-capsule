@@ -13,7 +13,7 @@ module.exports.function = function searchYoutube ($vivContext, searchData, searc
     cacheTime: 0
   };
 
-  const url = secret.get('api.url');
+  const url = secret.get('api.uri');
 
   try {    
     const response = http.getUrl(url + "/search", options);

@@ -1,6 +1,6 @@
 var console = require('console')
 
-module.exports.function = function execution (appNameKeyword, appType) {
+module.exports.function = function execution (appType) {
   var appType = String(appType);
   
   let result = {

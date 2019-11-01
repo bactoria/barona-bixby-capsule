@@ -1,11 +1,13 @@
 capsule {
-  id (p9class.barona)
-  version (1.1.0)
+  id (piguclass.barona)
+  version (1.1.1)
   format (3)
   targets {
     target (bixby-mobile-ko-KR)
   }
-  
+  permissions {
+    bixby-user-id-access
+  }
   runtime-flags{
     no-filtering-with-validation
     modern-default-view-behavior

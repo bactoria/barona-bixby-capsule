@@ -1,6 +1,6 @@
 capsule-info {
   display-name (바로나)
-  developer-name (p9class)
+  developer-name (piguclass)
   icon-asset (/images/baronaIcon.jpg)
   description (아이의 스마트폰 사용 관리 캡슐입니다. 아이의 스마트폰 사용 자세와 시간을 관리하고, 유해 동영상을 제외한 동영상을 아이 스스로 골라볼 수 있도록 기능을 제공합니다.)
   search-keywords {

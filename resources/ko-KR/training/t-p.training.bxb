@@ -1,8 +1,3 @@
-train (t-plup7k71goxtvp0z7nf997ny7) {
-  utterance ("[g:Execution] (바로나이)[v:AppNameKeyword:앱] (켜줘)[v:AppType:실행]")
-  plan (Y2BhkCiwTM5JLC7WS0osys9L1HMsKAhKLS7NKcGQca1ITS4tyczPY5DF1OOXmJvqnVpZnl+UwiCGKR1SWZDKwMzAyMAEJBmANAhCAFwUAA==)
-  last-modified (1572478200260)
-}
 train (t-pov20w3b3hpfe92ma8kf9h1s3) {
   utterance ("[g:Guide] (가이드)[v:GuideKeyword:가이드]")
   plan (Y2BmkCqwTM5JLC7WS0osys9L1HMvzUxJDUotLs0pYRDBJscgjU3UO7WyPL8ohYGJgRGIGYAkIwMIQPkA)

@@ -8,7 +8,7 @@ action (SearchYoutube) {
     }
     input (searchYoutubeKeyword) {
       type (SearchYoutubeKeyword)
-      min (Optional) max (One)
+      min (Required) max (One)
     }
   }
   
