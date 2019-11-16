@@ -9,6 +9,7 @@ capsule-info {
   }
   dispatch-name (바로나)
   dispatch-aliases {
-  alias (바르나)
- }
+    alias (바르나)
+  }
+  privacy-policy-url (https://blog.naver.com/dydrnr10/221693188411)
 }

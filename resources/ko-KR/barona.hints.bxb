@@ -1,34 +1,14 @@
 hints {
   uncategorized {
-    hint ("바로나에서 사용법 알려줘") {
-      preferred-hint ("사용법 알려줘")
-    }
-    hint ("바로나에서 시작") {
-      preferred-hint ("시작")
-    }
-    hint ("바로나에서 핑크퐁 틀어줘") {
-      preferred-hint ("핑크퐁 틀어줘")
-    }
-    hint ("바로나에서 뽀로로 실행해") {
-      preferred-hint ("뽀로로 실행해")
-    }
-    hint ("바로나에서 신비아파트 보여줘") {
-      preferred-hint ("신비아파트 보여줘")
-    }
-    hint ("바로나에서 공룡메카드 실행해줘") {
-      preferred-hint ("공룡메카드 실행해줘")
-    }
-    hint ("바로나에서 시크릿쥬쥬 검색해") {
-      preferred-hint ("시크릿쥬쥬 검색해")
-    }
-    hint ("바로나에서 또봇 시작해") {
-      preferred-hint ("또봇 시작해")
-    }
-    hint ("바로나에서 다음") {
-      preferred-hint ("다음")
-    }
-    hint ("바로나에서 종료") {
-      preferred-hint ("종료")
-    }
+    hint ("바로나에서 사용법 알려줘")
+    hint ("바로나에서 시작")
+    hint ("바로나에서 핑크퐁 틀어줘")
+    hint ("바로나에서 뽀로로 실행해")
+    hint ("바로나에서 신비 아파트 보여줘")
+    hint ("바로나에서 공룡메카드 실행해줘")
+    hint ("바로나에서 시크릿 쥬쥬 검색해")
+    hint ("바로나에서 또봇 시작해")
+    hint ("바로나에서 다음")
+    hint ("바로나에서 종료")
   }
 }
